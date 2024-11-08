@@ -26,4 +26,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/java-app:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/java-app:latest 
